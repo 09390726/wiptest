@@ -17,3 +17,5 @@ let mySprite = sprites.create(img`
     . . . c c c c c c c c b b . . . 
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
+music.playMelody("F C G C F C G C ", 120)
+music.playMelody("C5 A F D A F C D ", 180)
